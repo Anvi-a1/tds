@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Modify file and stage changes [23f2004665@ds.study.iitm.ac.in]
+      - name: Stage and modify files [23f2004665@ds.study.iitm.ac.in]
         run: |
           echo "Daily update: $(date -u)" >> daily-log.txt
           git config user.name "github-actions[bot]"
